@@ -1,0 +1,89 @@
+/* home */
+
+#home {
+  height: auto;
+  width: auto;
+  padding-bottom: 50px;
+}
+
+#home header nav .call {
+  justify-content: center;
+}
+
+#home header nav .navbar {
+  flex-direction: column;
+}
+
+#home header nav .navbar ul {
+  justify-content: space-around;
+}
+
+#home header .content {
+  padding-top: 0px;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: space-between;
+}
+
+#home header .content .img-price img {
+  width: 100%;
+}
+
+#home header .content .img-price div {
+  top: 67%;
+  right: 66%;
+}
+
+#home header .content .text {
+  margin-top: 3rem;
+}
+
+#home header .content .text h1 {
+  margin: 10px auto 0;
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+}
+
+/* choose-enjoy */
+
+#choose-enjoy section .kinds {
+  flex-direction: column;
+}
+
+#choose-enjoy section .kinds div {
+  margin: 50px 0;
+}
+
+/* ourstory */
+
+#ourstory section {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+#ourstory section img {
+  width: 100%;
+}
+
+/* #reservation */
+
+#reservation form div {
+  grid-template-columns: 1fr;
+}
+
+#reservation .r-plate,
+.c-bottle {
+  display: none;
+}
+
+#contactus section div.container {
+  flex-direction: column;
+}
+
+#contactus section div.container div:nth-of-type(1) p {
+  width: 100%;
+}
+
+#contactus section div.container div:nth-of-type(1) p:nth-of-type(2) {
+  margin-top: 30px;
+}

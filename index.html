@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger House</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:500px)"
+      href="./css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width:501px) and (max-width:768px)"
+      href="./css/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width:769px) and (max-width:1200px)"
+      href="./css/normal.css"
+    />
+  </head>
+  <body>
+    <div id="home">
+      <header>
+        <nav>
+          <div class="call">
+            <img src="./images/express.png" alt="express delivary" />
+            <p>Express Delivery +1 234 567 890</p>
+          </div>
+          <div class="navbar">
+            <img src="./images/Logo.png" alt="Burger House" />
+            <ul>
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#menu">MENU</a></li>
+              <li><a href="#ourstory">OUR STORY</a></li>
+              <li><a href="#contactus">CONTACT US</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="content">
+          <div class="text">
+            <p>IT IS A GOOD TIME FOR THE GREAT TASTE OF BURGERS</p>
+            <h1>BURGER<span>WEEK</span></h1>
+          </div>
+          <div class="img-price">
+            <img
+              src="./images/Burger Image.png"
+              alt="burger and soda and frensh frise"
+            />
+            <div>
+              <p>
+                $5.<span>49</span>
+                <br />
+                ONLY
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <div id="menu">
+      <section>
+        <div class="container">
+          <a href="#">
+            <p>TRY IT TODAY</p>
+            <h2>MOST POPULAR BURGER</h2>
+          </a>
+          <a href="#">
+            <p>TRY IT TODAY</p>
+            <h2>
+              <span>MORE FUN</span>
+              <span>MORE TASTE</span>
+            </h2>
+          </a>
+          <a href="#">
+            <p>TRY IT TODAY</p>
+            <h2>FRISH & CHILI</h2>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <div id="choose-enjoy">
+      <section>
+        <p class="tast">ALWAYS TASTY BURGER</p>
+        <h2>CHOOSE & ENJOY</h2>
+        <p class="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          deleniti eum vero sapiente voluptate ullam in consequuntur
+          exercitationem voluptatem dignissimos eveniet dolor id architecto
+          doloribus suscipit velit libero, repudiandae corrupti?
+        </p>
+        <div class="kinds">
+          <div>
+            <img src="./images/chose-enjoyBurger1.png" alt="burger" />
+            <h3>Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">ORDER NOW</a>
+          </div>
+          <div>
+            <img src="./images/chose-enjoyBurger2.png" alt="burger" />
+            <h3>Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">ORDER NOW</a>
+          </div>
+          <div>
+            <img src="./images/chose-enjoyBurger1.png" alt="burger" />
+            <h3>Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">ORDER NOW</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="ourstory">
+      <section>
+        <div>
+          <h3>DISCOVER</h3>
+          <h2>UPCOMING EVENTS</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+            laborum numquam, voluptatum adipisci dolore sunt ipsum atque iusto
+            praesentium impedit modi natus illo quae voluptates ut nam accusamus
+            inventore nulla!
+          </p>
+          <div>
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle"></i>
+          </div>
+        </div>
+        <img src="./images/events.png" alt="burger" />
+      </section>
+    </div>
+
+    <div id="reservation">
+      <img class="tl-burger" src="./images/reservBurger.png" alt="burger" />
+      <img class="c-bottle" src="./images/reservBottle.png" alt="bottle" />
+      <img class="r-plate" src="./images/reservPlate.png" alt="blate" />
+      <form>
+        <h3>RESERVATION</h3>
+        <h2>BOOK YOUR TABLE</h2>
+        <div>
+          <input type="text" name="name" id="name" placeholder="NAME" />
+          <input type="date" name="date" id="date" placeholder="DATE" />
+          <input
+            type="number"
+            name="people"
+            id="people"
+            placeholder="Number Of PEOPLE"
+            max="5"
+          />
+          <input type="email" name="email" id="email" placeholder="EMAIL" />
+          <input type="time" name="time" id="time" placeholder="TIME" />
+          <input type="submit" name="name" id="name" value="FIND A TABLE" />
+        </div>
+      </form>
+
+      <!-- <img src="./images/reservBottle.png" alt="bottle">
+        <img src="./images/reservPlate.png" alt="plate"> -->
+    </div>
+
+    <div id="contactus">
+      <section>
+        <div class="container">
+          <div>
+            <img src="./images/whitelogo.png" alt="burger house" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam,
+              debitis facilis voluptas officia mollitia optio voluptatibus
+              repudiandae et totam iusto accusamus hic est minus ab qui quidem
+              molestiae, quasi aspernatur.
+            </p>
+            <p>&copy;Coded By: Mostafa Hassan 2021. ALL RIGHTS RESERVED</p>
+          </div>
+          <div>
+            <p>
+              <i class="fas fa-map-marker-alt"></i>
+              MAIN RODAD, BULDING NAME, COUNTERY
+            </p>
+            <p>
+              <i class="fas fa-envelope"></i>
+              INFO@COMPANYNAME.COM
+            </p>
+            <div class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
